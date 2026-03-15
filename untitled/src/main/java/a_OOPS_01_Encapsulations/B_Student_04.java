@@ -1,6 +1,17 @@
 package a_OOPS_01_Encapsulations;
 
-public class A_Student_01 {
+public class B_Student_04 {
+    public B_Student_04(String name, int age, String batch, String address, long mobile) {
+        this.name = name;
+        this.age = age;
+        this.batch = batch;
+        this.address = address;
+        this.mobile = mobile;
+    }
+
+    public B_Student_04(String name) {
+        this.name = name;
+    }
 
     String name;
     int age;
