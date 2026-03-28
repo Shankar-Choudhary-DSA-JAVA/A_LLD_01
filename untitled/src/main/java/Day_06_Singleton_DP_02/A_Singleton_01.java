@@ -10,6 +10,7 @@ public class A_Singleton_01 {
 
     // Create instance below :-
     public static A_Singleton_01 getInstance(){
+
         return instance;
     }
 

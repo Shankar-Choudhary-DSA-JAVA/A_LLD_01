@@ -8,7 +8,7 @@ public class A_Singleton_01 {
 
     }
 
-    // Create instance below :-
+    // Create instance below :- Lazy Loading
     public synchronized static A_Singleton_01 getInstance(){
 
         if(instance == null){
